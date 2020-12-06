@@ -1,10 +1,28 @@
+extends browserslist-config-mycompany
+
+defaults
+not IE 11
+maintained node versions
+
+# Sample comment
 [production]
 > 1%
-ie 10
+chrome 70
+
+[legacy]
+ie < 11 and not ie 7
+< 1% in US
+not dead
 
 [modern]
 last 1 chrome version
-last 1 firefox version
+safari 13.2
+> .5% and not last 2 versions and not dead
 
 [ssr]
 node 12
+
+[dates]
+last 1.4 years
+Last 5 years
+since 2020-04-20
