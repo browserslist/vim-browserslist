@@ -10,7 +10,7 @@ This plugin does 2 things and 2 things only
 Install using your favorite plugin manager. Below is an example using [vim-plug](https://github.com/junegunn/vim-plug):
 
 ```viml
-Plug 'antonk52/vim-browserslist'
+Plug 'browserslist/vim-browserslist'
 ```
 
 ## Samples
