@@ -1,1 +1,1 @@
-autocmd BufNewFile,BufRead .browserslistrc setf browserslist
+autocmd BufNewFile,BufRead .browserslistrc,browserslist setf browserslist
